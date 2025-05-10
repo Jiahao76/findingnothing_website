@@ -67,6 +67,32 @@
     p a:hover {
       color: #0056b3;
     }
+
+    /* Calendar Styles */
+    table {
+      border-collapse: collapse;
+      margin: 2rem 0;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-color: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      text-align: center;
+      width: 100px;
+      height: 80px;
+      font-size: 1.2rem;
+    }
+
+    th {
+      background-color: #6f42c1;
+      color: white;
+      font-weight: bold;
+    }
+
+    .symbol-o { color: green; font-weight: bold; }
+    .symbol-x { color: red; font-weight: bold; }
   </style>
 </head>
 <body>
@@ -75,7 +101,6 @@
   <ul>
     <li><a href="https://space.bilibili.com/8903914" target="_blank">bilibili.com</a></li>
     <li><a href="https://www.youtube.com/@findingnothing_econ" target="_blank">youtube.com</a></li>
-    <li><a href="https://www.udemy.com/course/advanced_micro/?referralCode=FE461528F4A4C1681428" target="_blank">udemy.com</a></li>
   </ul>
 
   <p>
@@ -89,5 +114,28 @@
     <a href="https://www.udemy.com/course/spcaftrt/?referralCode=3B36B3FBA79769975C94" target="_blank">Udemy</a> or
     <a href="https://www.bilibili.com/cheese/play/ss409926762" target="_blank">Bilibili</a>.
   </p>
+
+  <h2>May 2025 Calendar</h2>
+  <table>
+    <tr>
+      <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+    </tr>
+    <tr>
+      <td></td><td></td><td class="symbol-x">1 ❌</td><td class="symbol-x">2 ❌</td><td class="symbol-x">3 ❌</td><td class="symbol-x">4 ❌</td><td class="symbol-x">5 ❌</td>
+    </tr>
+    <tr>
+      <td class="symbol-x">6 ❌</td><td class="symbol-x">7 ❌</td><td class="symbol-x">8 ❌</td><td class="symbol-x">9 ❌</td><td class="symbol-x">10 ❌</td><td class="symbol-x">11 ❌</td><td class="symbol-x">12 ❌</td>
+    </tr>
+    <tr>
+      <td class="symbol-x">13 ❌</td><td class="symbol-x">14 ❌</td><td class="symbol-o">15 ⭕</td><td class="symbol-o">16 ⭕</td><td class="symbol-o">17 ⭕</td><td class="symbol-o">18 ⭕</td><td class="symbol-o">19 ⭕</td>
+    </tr>
+    <tr>
+      <td class="symbol-o">20 ⭕</td><td class="symbol-o">21 ⭕</td><td class="symbol-o">22 ⭕</td><td class="symbol-o">23 ⭕</td><td class="symbol-o">24 ⭕</td><td class="symbol-o">25 ⭕</td><td class="symbol-o">26 ⭕</td>
+    </tr>
+    <tr>
+      <td class="symbol-o">27 ⭕</td><td class="symbol-o">28 ⭕</td><td class="symbol-o">29 ⭕</td><td class="symbol-o">30 ⭕</td><td class="symbol-o">31 ⭕</td><td></td><td></td>
+    </tr>
+  </table>
+  
 </body>
 </html>

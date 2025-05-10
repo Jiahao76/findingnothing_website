@@ -25,6 +25,14 @@
       color: #333;
     }
 
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: #444;
+      text-align: center;
+      max-width: 800px;
+    }
+
     ul {
       list-style: none;
       padding: 0;
@@ -49,15 +57,6 @@
       transform: scale(1.05);
     }
 
-    p {
-      max-width: 800px;
-      line-height: 1.6;
-      margin-bottom: 1.5rem;
-      font-size: 1.1rem;
-      color: #444;
-      text-align: center;
-    }
-
     p a {
       color: #007bff;
       font-weight: bold;
@@ -68,6 +67,31 @@
     p a:hover {
       color: #0056b3;
     }
+
+    table {
+      border-collapse: collapse;
+      margin: 2rem 0;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-color: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      text-align: center;
+      width: 100px;
+      height: 80px;
+      font-size: 1.2rem;
+    }
+
+    th {
+      background-color: #28a745;
+      color: white;
+      font-weight: bold;
+    }
+
+    .symbol-o { color: green; font-weight: bold; }
+    .symbol-x { color: red; font-weight: bold; }
   </style>
 </head>
 <body>
@@ -89,5 +113,28 @@
     <a href="https://www.udemy.com/course/spcaftrt/?referralCode=3B36B3FBA79769975C94" target="_blank">Udemy</a> 或
     <a href="https://www.bilibili.com/cheese/play/ss409926762" target="_blank">B站</a>。
   </p>
+
+  <h2>2025年5月日历</h2>
+  <table>
+    <tr>
+      <th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th>
+    </tr>
+    <tr>
+      <td></td><td></td><td class="symbol-x">1 ❌</td><td class="symbol-x">2 ❌</td><td class="symbol-x">3 ❌</td><td class="symbol-x">4 ❌</td><td class="symbol-x">5 ❌</td>
+    </tr>
+    <tr>
+      <td class="symbol-x">6 ❌</td><td class="symbol-x">7 ❌</td><td class="symbol-x">8 ❌</td><td class="symbol-x">9 ❌</td><td class="symbol-x">10 ❌</td><td class="symbol-x">11 ❌</td><td class="symbol-x">12 ❌</td>
+    </tr>
+    <tr>
+      <td class="symbol-x">13 ❌</td><td class="symbol-x">14 ❌</td><td class="symbol-o">15 ⭕</td><td class="symbol-o">16 ⭕</td><td class="symbol-o">17 ⭕</td><td class="symbol-o">18 ⭕</td><td class="symbol-o">19 ⭕</td>
+    </tr>
+    <tr>
+      <td class="symbol-o">20 ⭕</td><td class="symbol-o">21 ⭕</td><td class="symbol-o">22 ⭕</td><td class="symbol-o">23 ⭕</td><td class="symbol-o">24 ⭕</td><td class="symbol-o">25 ⭕</td><td class="symbol-o">26 ⭕</td>
+    </tr>
+    <tr>
+      <td class="symbol-o">27 ⭕</td><td class="symbol-o">28 ⭕</td><td class="symbol-o">29 ⭕</td><td class="symbol-o">30 ⭕</td><td class="symbol-o">31 ⭕</td><td></td><td></td>
+    </tr>
+  </table>
+  
 </body>
 </html>
