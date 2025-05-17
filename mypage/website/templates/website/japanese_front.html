@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>findingnothing's Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ようこそ、findingnothingのページへ</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
   <style>
     body {
@@ -15,14 +15,21 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      padding: 2rem;
     }
 
     h1 {
       font-family: 'Playfair Display', serif;
-      font-size: 3rem;
-      margin-bottom: 2rem;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
       color: #333;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: #444;
+      text-align: center;
     }
 
     ul {
@@ -30,12 +37,13 @@
       padding: 0;
       display: flex;
       gap: 2rem;
+      margin-bottom: 2rem;
     }
 
     li a {
       text-decoration: none;
       color: #fff;
-      background: #007bff;
+      background: #17a2b8;
       padding: 0.75rem 1.5rem;
       border-radius: 30px;
       font-weight: bold;
@@ -44,17 +52,17 @@
     }
 
     li a:hover {
-      background: #0056b3;
+      background: #117a8b;
       transform: scale(1.05);
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to findingnothing's World</h1>
-<ul>
-  <li><a href="{% url 'english-front-page' %}">English</a></li>
-  <li><a href="{% url 'chinese-front-page' %}">中文</a></li>
-  <li><a href="{% url 'japanese-front-page' %}">日本語</a></li>
-</ul>
+  <h1>ようこそ、findingnothingのページへ</h1>
+  <p>以下のサイトで動画をご覧ください。（中国語の動画ですが）</p>
+  <ul>
+    <li><a href="https://space.bilibili.com/8903914" target="_blank">bilibili.com</a></li>
+    <li><a href="https://www.youtube.com/@findingnothing_econ" target="_blank">youtube.com</a></li>
+  </ul>
 </body>
 </html>
